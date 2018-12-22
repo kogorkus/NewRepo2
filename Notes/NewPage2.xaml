@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Notes.NewPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Notes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Center" Margin="0,843,0,0" VerticalAlignment="Top" Height="100" Width="184"/>
+
+    </Grid>
+</Page>
