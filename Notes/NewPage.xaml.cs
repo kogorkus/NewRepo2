@@ -26,5 +26,18 @@ namespace Notes
         {
             this.InitializeComponent();
         }
+
+        private void Page1_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if(e.Parameter != null)
+            {
+                TB1.Text = e.Parameter.ToString();
+            }
+        }
     }
 }

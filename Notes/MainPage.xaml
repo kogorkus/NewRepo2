@@ -13,6 +13,10 @@
         <TextBox Name="TbEnter" HorizontalAlignment="Left" Margin="463,70,0,0" Text="TextBox" VerticalAlignment="Top" Height="21" Width="188"/>
         <Button Name="BtnEnter" Content="Button" HorizontalAlignment="Left" Margin="706,70,0,0" VerticalAlignment="Top" Click="BtnEnter_Click"/>
         <Button Content="Open" HorizontalAlignment="Left" Margin="706,124,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="Вперед" HorizontalAlignment="Center" Margin="0,568,0,0" VerticalAlignment="Top" Height="105" Width="207"/>
+        <Button Name="Forward1" Click="Forward1_Click" Content="Вперед" HorizontalAlignment="Left" Margin="479,521,0,0" VerticalAlignment="Top" Height="105" Width="207" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.306"/>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Page>

@@ -9,8 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="338,854,0,0" VerticalAlignment="Top" Height="96" Width="180"/>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="894,848,0,0" VerticalAlignment="Top" Height="96" Width="205"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="384,104,0,0" VerticalAlignment="Top" Height="96" Width="180"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="697,104,0,0" VerticalAlignment="Top" Height="96" Width="205"/>
+        <TextBlock Name="Page1" HorizontalAlignment="Center" Margin="0,10,0,0" Text="Страница 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="48" SelectionChanged="Page1_SelectionChanged" TextAlignment="Center"/>
+        <TextBlock Name="TB1" HorizontalAlignment="Left" Margin="191,415,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

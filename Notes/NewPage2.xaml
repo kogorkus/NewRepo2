@@ -9,7 +9,46 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Назад" HorizontalAlignment="Center" Margin="0,843,0,0" VerticalAlignment="Top" Height="100" Width="184"/>
+        <SplitView OpenPaneLength="200" HorizontalAlignment="Left" Height="310" Margin="83,50,0,0" VerticalAlignment="Top" Width="349">
+            <SplitView.Pane>
+                <ListBox Margin="0,0,-145,-211" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <TextBlock>
+                            Text1
+                        </TextBlock>
+                    </ListBoxItem>
+                </ListBox>
+            </SplitView.Pane>
+        </SplitView>
 
+
+        <TextBlock Name="Page1" HorizontalAlignment="Center" Margin="0,10,0,0" Text="Страница 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="48" TextAlignment="Center"/>
+        <Button Content="Назад" HorizontalAlignment="Center" Margin="0,99,0,0" VerticalAlignment="Top" Height="114" Width="184"/>
+        
     </Grid>
 </Page>

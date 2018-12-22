@@ -57,7 +57,14 @@ namespace Notes
         {
             StorageFile firstFile = await localFolder.GetFileAsync("settings.txt");
             TbEnter.Text = await FileIO.ReadTextAsync(firstFile);
+            
             await new MessageDialog("Files`s opend").ShowAsync();
+        }
+
+        private void Forward1_Click(object sender, RoutedEventArgs e)
+        {
+            MyClass my = new MyClass() { id = 0, number = 1000 };
+            Frame.Navigate(typeof(NewPage2), my);
         }
     }
 }
